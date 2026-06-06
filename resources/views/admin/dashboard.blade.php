@@ -422,7 +422,7 @@
 
                                 <div class="fw-semibold">
 
-                                    {{ $item->user->name }}
+                                    {{ $item->user?->name ?? 'User tidak ditemukan' }}
 
                                 </div>
 
